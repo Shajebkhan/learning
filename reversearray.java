@@ -1,14 +1,14 @@
 public class reversearray {
-    public static void ReverseArray(int [] arr) {
+    public static void ReverseArray(int[] arr) {
         int l = arr.length;
-        for (int i = l-1; i>=0; i--) {
-            System.out.print(arr[i]+ " ");
+        for (int i = l - 1; i >= 0; i--) {
+            System.out.print(arr[i] + " ");
         }
-        return ;  // optional bcose (type void)
+        return; // optional bcose (type void)
     }
-    
+
     public static void main(String[] args) {
-        int arr [ ] = { 1,2,3,4,5,6};
-        ReverseArray(arr); 
+        int arr[] = { 1, 2, 3, 4, 5, 6 };
+        ReverseArray(arr);
     }
 }
