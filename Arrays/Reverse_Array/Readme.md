@@ -1,0 +1,1 @@
+here we solve it with simple loop because it is a sorted array.
