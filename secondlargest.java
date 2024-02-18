@@ -8,7 +8,7 @@ public class secondlargest {
             System.out.println(arr[arr.length - 2]);
             break;
         }
-       
+
     }
 
     public static void main(String[] args) {

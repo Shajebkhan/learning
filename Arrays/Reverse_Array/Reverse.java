@@ -1,6 +1,6 @@
 package Arrays.Reverse_Array;
 
-public class reversearray {
+public class Reverse {
     public static void ReverseArray(int[] arr) {
         int l = arr.length;
         for (int i = l - 1; i >= 0; i--) {
