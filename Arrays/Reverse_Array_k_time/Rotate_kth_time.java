@@ -6,7 +6,6 @@ public class Rotate_kth_time {
             System.out.print(arr[i] + " ");
         }
     }
-
     static int[] rotate(int[] arr, int k) {
         int n = arr.length;
         k = k % n;
